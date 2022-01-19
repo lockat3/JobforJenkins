@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="26.36235">
+    <testcase classname="Validate the Booking in AdactinHotel" name="Vallidate the generation of Booking Id" time="26.36235">
+        <system-out><![CDATA[Given User should enter the login Page......................................passed
+When User should enter "chethrakamaraj" and "ck7200565947"..................passed
+When User should select "Sydney" and "Hotel Sunshine" and "Standard" and "3 - Three" and  "23/12/2021" and "23/12/2021" and "3 - Three" and "3 - Three".passed
+When User should select hotel...............................................passed
+When User should enter Booking details "sample first name" and "sample last name" and "address likne 1" and "1111222233334440" and "American Express" and "2013" and "October" and "1122".passed
+Then User should get BookingId..............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
