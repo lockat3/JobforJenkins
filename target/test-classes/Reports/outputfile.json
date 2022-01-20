@@ -3,177 +3,6 @@
     "line": 1,
     "elements": [
       {
-        "line": 11,
-        "name": "Vallidate the generation of Booking Id",
-        "description": "",
-        "id": "validate-the-booking-in-adactinhotel;vallidate-the-generation-of-booking-id;;2",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 29876726600,
-              "status": "passed"
-            },
-            "line": 3,
-            "name": "User should enter the login Page",
-            "match": {
-              "location": "StepDefinitionClass.user_should_enter_the_login_Page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 3162733200,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "User should enter \"chethrakamaraj\" and \"ck7200565947\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"chethrakamaraj\"",
-                  "offset": 18
-                },
-                {
-                  "val": "\"ck7200565947\"",
-                  "offset": 39
-                }
-              ],
-              "location": "StepDefinitionClass.user_should_enter_and(String,String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 2256835600,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "User should select \"Sydney\" and \"Hotel Sunshine\" and \"Standard\" and \"3 - Three\" and  \"23/12/2021\" and \"23/12/2021\" and \"3 - Three\" and \"3 - Three\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Sydney\"",
-                  "offset": 19
-                },
-                {
-                  "val": "\"Hotel Sunshine\"",
-                  "offset": 32
-                },
-                {
-                  "val": "\"Standard\"",
-                  "offset": 53
-                },
-                {
-                  "val": "\"3 - Three\"",
-                  "offset": 68
-                },
-                {
-                  "val": "\"23/12/2021\"",
-                  "offset": 85
-                },
-                {
-                  "val": "\"23/12/2021\"",
-                  "offset": 102
-                },
-                {
-                  "val": "\"3 - Three\"",
-                  "offset": 119
-                },
-                {
-                  "val": "\"3 - Three\"",
-                  "offset": 135
-                }
-              ],
-              "location": "StepDefinitionClass.user_should_select_and_and_and_and_and_and_and(String,String,String,String,String,String,String,String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1318700600,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "User should select hotel",
-            "match": {
-              "location": "StepDefinitionClass.user_should_select_hotel()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1199956900,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "User should enter Booking details \"sample first name\" and \"sample last name\" and \"address likne 1\" and \"1111222233334440\" and \"American Express\" and \"2013\" and \"October\" and \"1122\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"sample first name\"",
-                  "offset": 34
-                },
-                {
-                  "val": "\"sample last name\"",
-                  "offset": 58
-                },
-                {
-                  "val": "\"address likne 1\"",
-                  "offset": 81
-                },
-                {
-                  "val": "\"1111222233334440\"",
-                  "offset": 103
-                },
-                {
-                  "val": "\"American Express\"",
-                  "offset": 126
-                },
-                {
-                  "val": "\"2013\"",
-                  "offset": 149
-                },
-                {
-                  "val": "\"October\"",
-                  "offset": 160
-                },
-                {
-                  "val": "\"1122\"",
-                  "offset": 174
-                }
-              ],
-              "location": "StepDefinitionClass.user_should_enter_Booking_details_and_and_and_and_and_and_and(String,String,String,String,String,String,String,String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 7584852700,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "User should get BookingId",
-            "match": {
-              "location": "StepDefinitionClass.user_should_get_BookingId()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      }
-    ],
-    "name": "Validate the Booking in AdactinHotel",
-    "description": "",
-    "id": "validate-the-booking-in-adactinhotel",
-    "keyword": "Feature",
-    "uri": "src/test/resources/Feature/Adactin.feature",
-    "tags": []
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
         "line": 14,
         "name": "Vallidate the generation of Booking Id",
         "description": "",
@@ -183,8 +12,8 @@
         "steps": [
           {
             "result": {
-              "duration": 8631895400,
-              "status": "passed"
+              "duration": 2698700,
+              "status": "skipped"
             },
             "line": 3,
             "name": "User should enter the login Page",
@@ -195,8 +24,8 @@
           },
           {
             "result": {
-              "duration": 1966849500,
-              "status": "passed"
+              "duration": 12500,
+              "status": "skipped"
             },
             "line": 4,
             "name": "User should enter \"chethrakamaraj\" and \"ck7200565947\"",
@@ -217,8 +46,8 @@
           },
           {
             "result": {
-              "duration": 1878036200,
-              "status": "passed"
+              "duration": 7400,
+              "status": "skipped"
             },
             "line": 5,
             "name": "User should select \"Sydney\" and \"Hotel Sunshine\" and \"Standard\" and \"3 - Three\" and  \"23/12/2021\" and \"23/12/2021\" and \"3 - Three\" and \"3 - Three\"",
@@ -263,8 +92,8 @@
           },
           {
             "result": {
-              "duration": 1401123200,
-              "status": "passed"
+              "duration": 16300,
+              "status": "skipped"
             },
             "line": 6,
             "name": "User should select hotel",
@@ -275,49 +104,11 @@
           },
           {
             "result": {
-              "error_message": "cucumber.runtime.CucumberException: Step [User should enter Booking details {string} and {string} and {string} and {string} and {string} and {string} and {string} and {string}] is defined with 8 parameters at \u0027com.stepDefinition.StepDefinitionClass.user_should_enter_Booking_details_and_and_and_and_and_and_and(String,String,String,String,String,String,String,String) in file:/C:/Users/ADMIN/eclipse-workspace/App/target/test-classes/\u0027.\nHowever, the gherkin step has 9 arguments:\n * \"sample first name\"\n * \"sample last name\"\n * \"address likne 1\"\n * \"\u003cccnum\u003e\"\n * \"\u003ccctype\u003e\"\n * \"\u003cccyear\u003e\"\n * \"\u003cccexpmonth\u003e\"\n * \"\u003ccccvv\u003e\"\n * Table:\n      | ccnum            | cctype           | ccyear | ccexpmonth | cccvv |\n      | 1111222233334440 | American Express | 2029   | October    | 1122  |\n      | 8888777766665555 | Master Card      | 2025   | June       | 1122  |\n\nStep text: User should enter Booking details \"sample first name\" and \"sample last name\" and \"address likne 1\" and \"\u003cccnum\u003e\" and \"\u003ccctype\u003e\" and \"\u003cccyear\u003e\" and \"\u003cccexpmonth\u003e\" and \"\u003ccccvv\u003e\"\r\n\tat cucumber.runner.PickleStepDefinitionMatch.arityMismatch(PickleStepDefinitionMatch.java:84)\r\n\tat cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:36)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:63)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:49)\r\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:44)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:40)\r\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:124)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:65)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:133)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)\r\n",
-              "duration": 17906900,
-              "status": "failed"
+              "status": "undefined"
             },
             "line": 7,
-            "name": "User should enter Booking details \"sample first name\" and \"sample last name\" and \"address likne 1\" and \"\u003cccnum\u003e\" and \"\u003ccctype\u003e\" and \"\u003cccyear\u003e\" and \"\u003cccexpmonth\u003e\" and \"\u003ccccvv\u003e\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"sample first name\"",
-                  "offset": 34
-                },
-                {
-                  "val": "\"sample last name\"",
-                  "offset": 58
-                },
-                {
-                  "val": "\"address likne 1\"",
-                  "offset": 81
-                },
-                {
-                  "val": "\"\u003cccnum\u003e\"",
-                  "offset": 103
-                },
-                {
-                  "val": "\"\u003ccctype\u003e\"",
-                  "offset": 117
-                },
-                {
-                  "val": "\"\u003cccyear\u003e\"",
-                  "offset": 132
-                },
-                {
-                  "val": "\"\u003cccexpmonth\u003e\"",
-                  "offset": 147
-                },
-                {
-                  "val": "\"\u003ccccvv\u003e\"",
-                  "offset": 166
-                }
-              ],
-              "location": "StepDefinitionClass.user_should_enter_Booking_details_and_and_and_and_and_and_and(String,String,String,String,String,String,String,String)"
-            },
+            "name": "User should enter Booking details using table \"sample first name\" and \"sample last name\" and \"address likne 1\"",
+            "match": {},
             "rows": [
               {
                 "cells": [
@@ -351,7 +142,7 @@
           },
           {
             "result": {
-              "duration": 14500,
+              "duration": 8000,
               "status": "skipped"
             },
             "line": 11,
@@ -373,8 +164,8 @@
         "steps": [
           {
             "result": {
-              "duration": 11120896900,
-              "status": "passed"
+              "duration": 18100,
+              "status": "skipped"
             },
             "line": 17,
             "name": "User should enter the login Page",
@@ -385,8 +176,8 @@
           },
           {
             "result": {
-              "duration": 3031257300,
-              "status": "passed"
+              "duration": 13300,
+              "status": "skipped"
             },
             "line": 18,
             "name": "User should enter \"chethrakamaraj\" and \"ck7200565947\"",
@@ -407,16 +198,53 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 7900,
+              "status": "skipped"
             },
             "line": 19,
-            "name": "User should select  \"Sydney\" and \"Hotel Sunshine\" and \"Standard\" and \"3 - Three\" and  \"23/12/2021\" and \"23/12/2021\" and \"3 - Three\" and \"3 - Three\"",
-            "match": {},
+            "name": "User should select \"Sydney\" and \"Hotel Sunshine\" and \"Standard\" and \"3 - Three\" and  \"23/12/2021\" and \"23/12/2021\" and \"3 - Three\" and \"3 - Three\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"Standard\"",
+                  "offset": 53
+                },
+                {
+                  "val": "\"3 - Three\"",
+                  "offset": 68
+                },
+                {
+                  "val": "\"23/12/2021\"",
+                  "offset": 85
+                },
+                {
+                  "val": "\"23/12/2021\"",
+                  "offset": 102
+                },
+                {
+                  "val": "\"3 - Three\"",
+                  "offset": 119
+                },
+                {
+                  "val": "\"3 - Three\"",
+                  "offset": 135
+                }
+              ],
+              "location": "StepDefinitionClass.user_should_select_and_and_and_and_and_and_and(String,String,String,String,String,String,String,String)"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 15500,
+              "duration": 6700,
               "status": "skipped"
             },
             "line": 20,
@@ -489,275 +317,6 @@
     "id": "validate-the-booking-page-in-adactinhotel",
     "keyword": "Feature",
     "uri": "src/test/resources/Feature/Booking.feature",
-    "tags": []
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "line": 14,
-        "name": "Vallidate the generation of Booking Id",
-        "description": "",
-        "id": "validate-the-cancel-booking-in-adactinhotel;vallidate-the-generation-of-booking-id;;2",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 11711291600,
-              "status": "passed"
-            },
-            "line": 3,
-            "name": "User should enter the login Page",
-            "match": {
-              "location": "StepDefinitionClass.user_should_enter_the_login_Page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2070171100,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "User should enter \"chethrakamaraj\" and \"ck7200565947\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"chethrakamaraj\"",
-                  "offset": 18
-                },
-                {
-                  "val": "\"ck7200565947\"",
-                  "offset": 39
-                }
-              ],
-              "location": "StepDefinitionClass.user_should_enter_and(String,String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 2342722300,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "User should select \"Sydney\" and \"Hotel Sunshine\" and \"Standard\" and \"3 - Three\" and  \"23/12/2021\" and \"23/12/2021\" and \"3 - Three\" and \"3 - Three\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Sydney\"",
-                  "offset": 19
-                },
-                {
-                  "val": "\"Hotel Sunshine\"",
-                  "offset": 32
-                },
-                {
-                  "val": "\"Standard\"",
-                  "offset": 53
-                },
-                {
-                  "val": "\"3 - Three\"",
-                  "offset": 68
-                },
-                {
-                  "val": "\"23/12/2021\"",
-                  "offset": 85
-                },
-                {
-                  "val": "\"23/12/2021\"",
-                  "offset": 102
-                },
-                {
-                  "val": "\"3 - Three\"",
-                  "offset": 119
-                },
-                {
-                  "val": "\"3 - Three\"",
-                  "offset": 135
-                }
-              ],
-              "location": "StepDefinitionClass.user_should_select_and_and_and_and_and_and_and(String,String,String,String,String,String,String,String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1255198800,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "User should select hotel",
-            "match": {
-              "location": "StepDefinitionClass.user_should_select_hotel()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1357880800,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "User should enter Booking details \"sample first name\" and \"sample last name\" and \"address likne 1\" and \"1111222233334440\" and \"American Express\" and \"2013\" and \"October\" and \"1122\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"sample first name\"",
-                  "offset": 34
-                },
-                {
-                  "val": "\"sample last name\"",
-                  "offset": 58
-                },
-                {
-                  "val": "\"address likne 1\"",
-                  "offset": 81
-                },
-                {
-                  "val": "\"1111222233334440\"",
-                  "offset": 103
-                },
-                {
-                  "val": "\"American Express\"",
-                  "offset": 126
-                },
-                {
-                  "val": "\"2013\"",
-                  "offset": 149
-                },
-                {
-                  "val": "\"October\"",
-                  "offset": 160
-                },
-                {
-                  "val": "\"1122\"",
-                  "offset": 174
-                }
-              ],
-              "location": "StepDefinitionClass.user_should_enter_Booking_details_and_and_and_and_and_and_and(String,String,String,String,String,String,String,String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 7486059100,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "User should get BookingId",
-            "match": {
-              "location": "StepDefinitionClass.user_should_get_BookingId()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 9,
-            "name": "User should enter Itinery page and Search BookingId",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 10,
-            "name": "User should cancel the BookingId",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 11,
-            "name": "User should verify the cancelation message \"Bookind id is cancelled\"",
-            "match": {},
-            "keyword": "When "
-          }
-        ]
-      },
-      {
-        "line": 24,
-        "name": "Validate the Cancelation of existing Booking id in AdactinHotel",
-        "description": "",
-        "id": "validate-the-cancel-booking-in-adactinhotel;validate-the-cancelation-of-existing-booking-id-in-adactinhotel;;2",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 10428160700,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "User should enter the login Page",
-            "match": {
-              "location": "StepDefinitionClass.user_should_enter_the_login_Page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 3648808800,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "User should enter \"chethrakamaraj\" and \"ck7200565947\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"chethrakamaraj\"",
-                  "offset": 18
-                },
-                {
-                  "val": "\"ck7200565947\"",
-                  "offset": 39
-                }
-              ],
-              "location": "StepDefinitionClass.user_should_enter_and(String,String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 19,
-            "name": "User should enter Itinery page and Search BookingId\"GHJKIK123\"",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 20,
-            "name": "User should cancel the BookingId",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 21,
-            "name": "User should verify the cancelation message \"Bookind id is cancelled\"",
-            "match": {},
-            "keyword": "When "
-          }
-        ]
-      }
-    ],
-    "name": "Validate the Cancel Booking in AdactinHotel",
-    "description": "",
-    "id": "validate-the-cancel-booking-in-adactinhotel",
-    "keyword": "Feature",
-    "uri": "src/test/resources/Feature/CancelBooking.feature",
     "tags": []
   }
 ]

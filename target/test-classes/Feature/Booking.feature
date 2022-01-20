@@ -4,7 +4,7 @@ Given User should enter the login Page
 When User should enter "<userName>" and "<password>"
 When User should select "<location>" and "<hotel>" and "<roomType>" and "<roomNo>" and  "<dateIn>" and "<dateOut>" and "<adult>" and "<childRoom>"
 When User should select hotel
-When User should enter Booking details "<firstName>" and "<lastName>" and "<address>" and "<ccnum>" and "<cctype>" and "<ccyear>" and "<ccexpmonth>" and "<cccvv>"
+When User should enter Booking details using table "<firstName>" and "<lastName>" and "<address>"
 |ccnum|cctype|ccyear|ccexpmonth|cccvv|
 |1111222233334440|American Express|2029|October|1122|
 |8888777766665555|Master Card|2025|June|1122|
@@ -16,7 +16,7 @@ Examples:
 Scenario Outline: Vallidate the error message for 7 feilds
 Given User should enter the login Page
 When User should enter "<userName>" and "<password>"
-When User should select  "<location>" and "<hotel>" and "<roomType>" and "<roomNo>" and  "<dateIn>" and "<dateOut>" and "<adult>" and "<childRoom>"
+When User should select "<location>" and "<hotel>" and "<roomType>" and "<roomNo>" and  "<dateIn>" and "<dateOut>" and "<adult>" and "<childRoom>"
 When User should select hotel
 When User should click Book hotel
 Then User should verify the 7 error messages

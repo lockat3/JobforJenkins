@@ -93,11 +93,12 @@ public class BookHotelPage extends ReusableLibrary {
 		selectByText(getDropDwnExpMonth(),ccexpmonth );
 		enterText(getTextCCCvv(), cccvv);
 		click(getBtnBookNow());
-		
+	}
+	public void clickBookNow() {
+		// TODO Auto-generated method stub
+		click(getBtnBookNow());
 	}
 	public void verifyPageTile(String expectedTile) {
-		
-		
 		System.out.println(getText(getPageTitle()));
 	}
 }
