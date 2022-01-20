@@ -1,4 +1,5 @@
 Feature: Validate the Booking Page in AdactinHotel
+@Regq
 Scenario Outline: Vallidate the generation of Booking Id
 Given User should enter the login Page
 When User should enter "<userName>" and "<password>"
@@ -30,3 +31,14 @@ Then User should verify the 7 error messages
 Examples:
 |userName|password|location|hotel|roomType|roomNo|dateIn|dateOut|adult|childRoom|
 |chethrakamaraj|ck7200565947|Sydney|Hotel Sunshine|Standard|3 - Three|23/12/2021|23/12/2021|3 - Three|3 - Three|
+@Reg
+Scenario Outline: Vallidate the generation of Booking Id
+Given User should enter the login Page
+When User should enter "<userName>" and "<password>"
+When User should select "<location>" and "<hotel>" and "<roomType>" and "<roomNo>" and  "<dateIn>" and "<dateOut>" and "<adult>" and "<childRoom>"
+When User should select hotel
+When User should enter Booking details "<firstName>" and "<lastName>" and "<address>" and "<ccnum>" and "<cctype>" and "<ccyear>" and "<ccexpmonth>" and "<cccvv>"
+Then User should get BookingId
+Examples: 
+|userName|password|location|hotel|roomType|roomNo|dateIn|dateOut|adult|childRoom|firstName|lastName|address|ccnum|cctype|ccyear|ccexpmonth|cccvv|
+|chethrakamaraj|ck7200565947|Sydney|Hotel Sunshine|Standard|3 - Three|23/12/2021|23/12/2021|3 - Three|3 - Three|sample first name|sample last name|address likne 1|1111222233334440|American Express|2013|October|1122|

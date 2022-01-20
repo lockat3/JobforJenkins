@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "line": 14,
+        "line": 44,
         "name": "Vallidate the generation of Booking Id",
         "description": "",
         "id": "validate-the-booking-page-in-adactinhotel;vallidate-the-generation-of-booking-id;;2",
@@ -12,10 +12,10 @@
         "steps": [
           {
             "result": {
-              "duration": 2698700,
-              "status": "skipped"
+              "duration": 108342823400,
+              "status": "passed"
             },
-            "line": 3,
+            "line": 36,
             "name": "User should enter the login Page",
             "match": {
               "location": "StepDefinitionClass.user_should_enter_the_login_Page()"
@@ -24,10 +24,10 @@
           },
           {
             "result": {
-              "duration": 12500,
-              "status": "skipped"
+              "duration": 2958593300,
+              "status": "passed"
             },
-            "line": 4,
+            "line": 37,
             "name": "User should enter \"chethrakamaraj\" and \"ck7200565947\"",
             "match": {
               "arguments": [
@@ -46,10 +46,10 @@
           },
           {
             "result": {
-              "duration": 7400,
-              "status": "skipped"
+              "duration": 2140035000,
+              "status": "passed"
             },
-            "line": 5,
+            "line": 38,
             "name": "User should select \"Sydney\" and \"Hotel Sunshine\" and \"Standard\" and \"3 - Three\" and  \"23/12/2021\" and \"23/12/2021\" and \"3 - Three\" and \"3 - Three\"",
             "match": {
               "arguments": [
@@ -92,10 +92,10 @@
           },
           {
             "result": {
-              "duration": 16300,
-              "status": "skipped"
+              "duration": 1277396000,
+              "status": "passed"
             },
-            "line": 6,
+            "line": 39,
             "name": "User should select hotel",
             "match": {
               "location": "StepDefinitionClass.user_should_select_hotel()"
@@ -104,210 +104,66 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 1072981500,
+              "status": "passed"
             },
-            "line": 7,
-            "name": "User should enter Booking details using table \"sample first name\" and \"sample last name\" and \"address likne 1\"",
-            "match": {},
-            "rows": [
-              {
-                "cells": [
-                  "ccnum",
-                  "cctype",
-                  "ccyear",
-                  "ccexpmonth",
-                  "cccvv"
-                ]
-              },
-              {
-                "cells": [
-                  "1111222233334440",
-                  "American Express",
-                  "2029",
-                  "October",
-                  "1122"
-                ]
-              },
-              {
-                "cells": [
-                  "8888777766665555",
-                  "Master Card",
-                  "2025",
-                  "June",
-                  "1122"
-                ]
-              }
-            ],
+            "line": 40,
+            "name": "User should enter Booking details \"sample first name\" and \"sample last name\" and \"address likne 1\" and \"1111222233334440\" and \"American Express\" and \"2013\" and \"October\" and \"1122\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sample first name\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"sample last name\"",
+                  "offset": 58
+                },
+                {
+                  "val": "\"address likne 1\"",
+                  "offset": 81
+                },
+                {
+                  "val": "\"1111222233334440\"",
+                  "offset": 103
+                },
+                {
+                  "val": "\"American Express\"",
+                  "offset": 126
+                },
+                {
+                  "val": "\"2013\"",
+                  "offset": 149
+                },
+                {
+                  "val": "\"October\"",
+                  "offset": 160
+                },
+                {
+                  "val": "\"1122\"",
+                  "offset": 174
+                }
+              ],
+              "location": "StepDefinitionClass.user_should_enter_Booking_details_and_and_and_and_and_and_and(String,String,String,String,String,String,String,String)"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 8000,
-              "status": "skipped"
+              "duration": 8409458700,
+              "status": "passed"
             },
-            "line": 11,
+            "line": 41,
             "name": "User should get BookingId",
             "match": {
               "location": "StepDefinitionClass.user_should_get_BookingId()"
             },
             "keyword": "Then "
           }
-        ]
-      },
-      {
-        "line": 32,
-        "name": "Vallidate the error message for 7 feilds",
-        "description": "",
-        "id": "validate-the-booking-page-in-adactinhotel;vallidate-the-error-message-for-7-feilds;;2",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
+        ],
+        "tags": [
           {
-            "result": {
-              "duration": 18100,
-              "status": "skipped"
-            },
-            "line": 17,
-            "name": "User should enter the login Page",
-            "match": {
-              "location": "StepDefinitionClass.user_should_enter_the_login_Page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 13300,
-              "status": "skipped"
-            },
-            "line": 18,
-            "name": "User should enter \"chethrakamaraj\" and \"ck7200565947\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"chethrakamaraj\"",
-                  "offset": 18
-                },
-                {
-                  "val": "\"ck7200565947\"",
-                  "offset": 39
-                }
-              ],
-              "location": "StepDefinitionClass.user_should_enter_and(String,String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 7900,
-              "status": "skipped"
-            },
-            "line": 19,
-            "name": "User should select \"Sydney\" and \"Hotel Sunshine\" and \"Standard\" and \"3 - Three\" and  \"23/12/2021\" and \"23/12/2021\" and \"3 - Three\" and \"3 - Three\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Sydney\"",
-                  "offset": 19
-                },
-                {
-                  "val": "\"Hotel Sunshine\"",
-                  "offset": 32
-                },
-                {
-                  "val": "\"Standard\"",
-                  "offset": 53
-                },
-                {
-                  "val": "\"3 - Three\"",
-                  "offset": 68
-                },
-                {
-                  "val": "\"23/12/2021\"",
-                  "offset": 85
-                },
-                {
-                  "val": "\"23/12/2021\"",
-                  "offset": 102
-                },
-                {
-                  "val": "\"3 - Three\"",
-                  "offset": 119
-                },
-                {
-                  "val": "\"3 - Three\"",
-                  "offset": 135
-                }
-              ],
-              "location": "StepDefinitionClass.user_should_select_and_and_and_and_and_and_and(String,String,String,String,String,String,String,String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 6700,
-              "status": "skipped"
-            },
-            "line": 20,
-            "name": "User should select hotel",
-            "match": {
-              "location": "StepDefinitionClass.user_should_select_hotel()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 21,
-            "name": "User should click Book hotel",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 22,
-            "name": "User should verify the 7 error messages",
-            "match": {},
-            "rows": [
-              {
-                "cells": [
-                  "Please Enter your First Name"
-                ]
-              },
-              {
-                "cells": [
-                  "Please Enter you Last Name"
-                ]
-              },
-              {
-                "cells": [
-                  "Please Enter your Address"
-                ]
-              },
-              {
-                "cells": [
-                  "Please Enter your 16 Digit Credit Card Number"
-                ]
-              },
-              {
-                "cells": [
-                  "Please Select your Credit Card Type"
-                ]
-              },
-              {
-                "cells": [
-                  "Please Select your Credit Card Expiry Month"
-                ]
-              },
-              {
-                "cells": [
-                  "Please Enter your Credit Card CVV Number"
-                ]
-              }
-            ],
-            "keyword": "Then "
+            "name": "@Reg"
           }
         ]
       }

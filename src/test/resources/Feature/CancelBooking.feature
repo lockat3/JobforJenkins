@@ -1,4 +1,5 @@
 Feature: Validate the Cancel Booking in AdactinHotel
+@Go
 Scenario Outline: Vallidate the generation of Booking Id
 Given User should enter the login Page
 When User should enter "<userName>" and "<password>"
