@@ -1,4 +1,5 @@
 Feature: Validate the Booking in AdactinHotel
+@Reg
 Scenario Outline: Vallidate the generation of Booking Id
 Given User should enter the login Page
 When User should enter "<userName>" and "<password>"

@@ -1,6 +1,8 @@
 package com.stepDefinition;
 
 import java.io.IOException;
+import java.util.List;
+import java.util.Map;
 
 import com.Library.ReusableLibrary;
 import com.pages.BookConfirmationPage;
@@ -54,6 +56,26 @@ public class StepDefinitionClass extends ReusableLibrary{
 		bookConfirmationPage.verifyPageTile("Booking Confirmation");
 		bookConfirmationPage.bookConfirmation();
 		closeBrowser();
+	}
+	@When("User should enter Booking details using table {string} and {string} and {string}")
+	public void user_should_enter_Booking_details_using_table_and_and(String firstName, String lastName, String address, io.cucumber.datatable.DataTable dataTable) {
+		List<Map<String, String>> asMaps = dataTable.asMaps();
+		BookHotelPage  bookhotelpage= new BookHotelPage();
+		bookhotelpage.verifyPageTile("Book A Hotel");
+		bookhotelpage.BookHotel(firstName,lastName,address,asMaps.get(1).get("ccnum"),asMaps.get(1).get("cctype"),asMaps.get(1).get("ccyear"),asMaps.get(1).get("ccexpmonth"),asMaps.get(1).get("cccvv"));
+	}
+
+	@When("User should click Book hotel")
+	public void user_should_click_Book_hotel() {
+	    // Write code here that turns the phrase above into concrete actions
+		BookHotelPage  bookhotelpage= new BookHotelPage();
+		bookhotelpage.clickBookNow();
+	}
+
+	@Then("User should verify the {int} error messages")
+	public void user_should_verify_the_error_messages(Integer int1, io.cucumber.datatable.DataTable dataTable) {
+	    List<String> asList = dataTable.asList();
+	    System.out.println();
 	}
 
 
