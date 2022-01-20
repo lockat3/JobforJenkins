@@ -8,7 +8,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = {"src/test/resources/Feature/Booking.feature"} ,glue = {"com.stepDefinition"}, dryRun = true,monochrome = true ,plugin = {"pretty","json:src/test/resources/Reports/outputfile.json"})
+@CucumberOptions( features = {"src/test/resources/Feature/Booking.feature"} ,glue = {"com.stepDefinition"}, dryRun = false,monochrome = true ,plugin = {"pretty","json:src/test/resources/Reports/outputfile.json"})
 public class TestRunnerClass {
 
 	
